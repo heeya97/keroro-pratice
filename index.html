@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>케로로 결말 만화</title>
+  <style type="text/css">
+  	img{width:800px;}
+  	body{background-color: #404040; margin-top:200px;}
+  </style>
+ </head>
+ <body leftmargin="0" topmargin="0">
+  <CENTER>
+<TABLE border="0" cellpadding="3" bgcolor="#404040" width="300">
+<TR height="300">
+	<TD align="center">
+	<!-- 맨처음 보여줄 이미지 설정 -->
+
+	<IMG src="12.png" name="gallery">
+	</TD>
+</TR>
+<TR>
+	<TD align="center">
+		<FORM name="menu">
+			<SCRIPT type="text/javascript">
+			<!--
+			var photos = new Array();
+			var which = 0;
+			
+			// 보여줄 이미지들을 아래의 방법으로 설정
+			photos[0] = "12.png";
+			photos[1] = "13.png";
+			photos[2] = "14.png";
+			photos[3] = "15.png";
+			photos[4] = "16.png";
+			photos[5] = "17.png";
+			photos[6] = "18.png";
+			photos[7] = "19.png";
+			photos[8] = "110.png";
+			photos[9] = "111.png";
+			photos[10] = "112.png";
+			photos[11] = "113.png";
+			photos[12] = "114.png";
+			photos[13] = "115.png";
+			photos[14] = "116.png";
+			photos[15] = "117.png";
+			photos[16] = "118.png";
+			photos[17] = "119.png";
+			photos[18] = "120.png";
+			photos[19] = "121.png";
+			photos[20] = "122.png";
+			photos[21] = "123.png";
+			photos[22] = "124.png";
+			photos[23] = "125.png";
+			photos[24] = "126.png";
+			photos[25] = "127.png";
+
+			function backward()
+
+			{	
+				if (which > 0)
+				{
+					which --;
+					document.images.gallery.src=photos[which];
+				}
+			}
+
+	function forward()
+	{if (which < photos.length-1)
+		{which ++;
+			document.images.gallery.src= photos[which];}}
+			//-->
+			</SCRIPT>
+
+		<INPUT value="◀" name="B2" onClick="backward();" onFocus="this.blur();" style="background-color:#707070;border:none;width:120px;height:50px; text-align:center;">
+		<INPUT value="▶" name="B1" onClick="forward();" onFocus="this.blur();" style="background-color:#707070;border:none;width:120px;height:50px; text-align:center;">
+		</FORM>
+	</TD>
+</TR>
+</TABLE>
+</CENTER>
+ </body>
+</html>
